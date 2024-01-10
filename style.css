@@ -1,5 +1,7 @@
 /* Common CSS */
 body{
+    padding: 0;
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
@@ -12,16 +14,19 @@ body{
     color: #fff;
     padding: 18px 36px;
     border: none;
-    box-shadow: 5px 5px 10px #d65900c7;
 }
 
 
-
+/* Header CSS */
+.header{
+    background: #FFF8F3;
+}
 /* Nav CSS */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 100px 0 200px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -46,4 +51,14 @@ nav > ul > li > button {
 nav > ul > li > a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Banner CSS */
+.banner {
+    padding: 30px 38px 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 584px;
 }
