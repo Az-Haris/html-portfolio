@@ -120,10 +120,30 @@ nav > ul > li > a {
 /* About Section CSS */
 .about {
   width: 1140px;
-  height: 550px;
+  height: 400px;
   flex-shrink: 0;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 200px;
   padding: 131px 156px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
+  margin-top: 50px;
+}
+.about-info .info-title{
+  font-weight: 400;
+  font-size: 20px;
+  color: #757575;
+  margin: 0;
+}
+.about-info .info-description{
+  font-weight: 700;
+  font-size: 28px;
+  margin: 10px;
+  line-height: 30px;
 }
