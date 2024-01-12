@@ -116,9 +116,7 @@ nav > ul > li > a {
 }
 
 /* Main Section CSS */
-.main-section {
-  
-}
+
 
 /* About Section CSS */
 .about {
@@ -178,4 +176,44 @@ nav > ul > li > a {
   font-weight: 400;
   color: #757575;
   line-height: 38px;
+}
+
+
+/* Resume Section CSS */
+.resume{
+  max-width: 1402px;
+  margin: 100px auto 50px auto;
+}
+.resume-container{
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+}
+.education h4{
+  font-size: 30px;
+}
+.job h4{
+  font-size: 30px;
+}
+.blocks{
+  border-bottom: 2px solid black;
+  margin: 0 0 50px 0;
+  padding-bottom: 50px;
+}
+
+.block-title{
+  font-size: 25px;
+  margin: 0;
+}
+.subtitle{
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.block-description{
+  font-size: 16px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: -50px;
 }
