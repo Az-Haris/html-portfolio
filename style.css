@@ -261,3 +261,41 @@ footer{
 .social-links a{
   margin-right: 20px;
 }
+
+
+/* Responsive Styles */
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  .section-description {
+    width: auto;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 10px;
+  }
+  .profession, .resume{
+    max-width: 576px;
+  }
+  .skill-container{
+     margin-top: 50px;
+     flex-direction: column;
+     align-items: center;
+  }
+  .skill{
+    height: 330px;
+    margin-bottom: 30px;
+  }
+  
+  .resume .section-title{
+    margin-bottom: 0;
+  }
+  .resume-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+
+}
